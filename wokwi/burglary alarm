@@ -1,0 +1,15 @@
+from machine import Pin
+from time import sleep
+
+pir = Pin(28, Pin.IN)
+
+print("Temmikoo Alarm Systems")
+sleep(4)
+print("Alarm system warming up...")
+sleep(4)
+print("System armed, monitoring started.")
+
+while True:
+    if pir.value() == 1:
+        print("Motion detected!")
+        sleep(2)
