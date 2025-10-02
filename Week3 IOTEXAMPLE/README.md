@@ -1,6 +1,6 @@
 
 ## Server.js
-käynnistää Express-palvelimen porttiin 3000 ja käyttää SQLite-tietokantaa **TeemunDatabase.db**.  
+Käynnistää Express-palvelimen porttiin 3000 ja käyttää SQLite-tietokantaa **TeemunDatabase.db**.  
 Käynnistyessään ohjelma luo taulun **users**, jos sitä ei vielä ole.
 
 **Päätepisteet:**
