@@ -1,4 +1,4 @@
-Tästä reposta löytyy kaikki IoT-Perusteet kurssin harjoitukset.
+Tästä IoT-perusteet reposta löytyy kaikki IoT-perusteet kurssin harjoitukset.
 
 - Wokwi-kansiossa on kaikki Wokwilla tehdyt ohjelmointitehtävät
     - Wokwi-laitteiden dokumentaatiot ovat yhdessä README-tiedostossa Wokwi-kansion sisällä.
