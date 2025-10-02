@@ -19,3 +19,9 @@ Laite näyttää tekstin "Hello student!" I2C-liitännäisellä LCD-näytöllä 
 
 ### Koodin toiminta tiivistettynä
 Koodi muodostaa yhteyden I2C-näyttöön ja tulostaa näytölle tervehdyksen.
+
+## Ask username
+Käyttäjä syöttää käyttäjätunnuksen.  
+Jos nimi on **"Clark Kent"**, ohjelma tulostaa **"You are the Superman!"**.  
+Muussa tapauksessa tulostetaan **"You are an ordinary person."**
+
