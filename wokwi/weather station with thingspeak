@@ -38,7 +38,7 @@ def send_to_thingspeak(temp):
         # Send HTTP POST request to ThingSpeak with temperature data
         response = urequests.post(
             THINGSPEAK_URL,
-            data = 'api_key={}&field1{}'.format(THINGSPEAK_API_KEY, temp),
+            data = 'api_key={}&field1={}'.format(THINGSPEAK_API_KEY, temp),
             headers={'Content-Type': 'application/x-www-form-urlencoded'}
         )
         print("ThingSpeak response:", response.text)            # Print server response
