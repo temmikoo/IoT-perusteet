@@ -1,24 +1,11 @@
 # Wokwi-laitteiden dokumentaatiot
 
-## LCD-display
+---
 
-**Mikrokontrolleri:** Raspberry Pi Pico  
-**Kieli:** MicroPython  
-
-### Kuvaus
-Laite näyttää tekstin "Hello student!" I2C-liitännäisellä LCD-näytöllä heti käynnistyksen jälkeen.
-
-### Toimintaperiaate
-1. Odottaa hetken, jotta laite ehtii käynnistyä.  
-2. Alustaa I2C-väylän ja LCD-näytön.  
-3. Tulostaa näytölle tekstin "Hello student!".
-
-### Käytetyt komponentit
-- Raspberry Pi Pico  
-- I2C LCD -näyttö (20x4)
-
-### Koodin toiminta tiivistettynä
-Koodi muodostaa yhteyden I2C-näyttöön ja tulostaa näytölle tervehdyksen.
+## LCD display
+Laite näyttää tekstin "Hello student!" I2C-liitännäisellä LCD-näytöllä heti käynnistyksen jälkeen.  
+Ohjelma alustaa I2C-väylän ja muodostaa yhteyden LCD-näyttöön osoitteessa 0x27.  
+Näytölle tulostetaan viesti "Hello student!".
 
 ---
 
