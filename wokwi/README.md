@@ -36,7 +36,7 @@ Tämä luo tasaisen vilkutuksen, joka jatkuu loputtomasti.
 
 ---
 
-## LED on and off
+## Blink onboard LED
 Ohjelma vilkuttaa Raspberry Pi Picon sisäistä LEDiä.  
 LED sytytetään komennolla `led.value(1)` ja sammutetaan komennolla `led.value(0)`.  
 LED palaa 0,4 sekuntia kerrallaan ja sammuu 0,4 sekunniksi, toistuen loputtomasti.
