@@ -1,6 +1,6 @@
 # Wokwi-laitteiden dokumentaatiot
 
-## LCD-tervehdyslaite
+## LCD-display
 
 **Mikrokontrolleri:** Raspberry Pi Pico  
 **Kieli:** MicroPython  
@@ -26,4 +26,11 @@ Koodi muodostaa yhteyden I2C-näyttöön ja tulostaa näytölle tervehdyksen.
 Käyttäjä syöttää käyttäjätunnuksen.  
 Jos nimi on **"Clark Kent"**, ohjelma tulostaa **"You are the Superman!"**.  
 Muussa tapauksessa tulostetaan **"You are an ordinary person."**
+
+---
+
+## Blink external LED
+Ohjelma saa LEDin vilkkumaan jatkuvasti.  
+LED on kytketty GPIO15-nastaan ja vaihtaa tilaansa (päällä/pois) 0,4 sekunnin välein.  
+Tämä luo tasaisen vilkutuksen, joka jatkuu loputtomasti.
 
