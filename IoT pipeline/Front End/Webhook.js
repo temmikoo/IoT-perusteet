@@ -1,3 +1,10 @@
+/*
+File: server.js
+Purpose: Monitors sauna temperature data from ThingSpeak and sends a Discord message via webhook when temperature reaches ≥ 75 °C.
+Author: Teemu Koivukangas
+Date: 2025-10-06
+*/
+
 import express from "express";
 import fetch from "node-fetch";
 
