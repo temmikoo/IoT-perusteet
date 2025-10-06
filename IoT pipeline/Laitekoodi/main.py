@@ -1,3 +1,11 @@
+"""
+File: main.py
+Purpose: Reads temperature data and sends it to ThingSpeak.
+Hardware: Raspberry Pi Pico W + DHT22 sensor + LCD display
+Author: Teemu Koivukangas
+Date: 2025-10-06
+"""
+
 import dht
 from machine import I2C, Pin
 from pico_i2c_lcd import I2cLcd
