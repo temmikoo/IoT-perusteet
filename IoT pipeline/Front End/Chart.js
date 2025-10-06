@@ -1,3 +1,10 @@
+/*
+File: Chart.js
+Purpose: Fetches temperature data from ThingSpeak and visualizes it as a line chart using Google Charts.
+Author: Teemu Koivukangas
+Date: 2025-10-06
+*/
+
 const CHANNEL_ID = "3099297";
 const FIELD_NUM = "1";
 const READ_API_KEY = "A7HJYV5W8GH4RU3H";
